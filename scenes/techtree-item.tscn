@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://scripts/techtree-item.gd" type="Script" id=1]
+
+[node name="button" type="TextureButton"]
+
+rect/min_size = Vector2( 16, 16 )
+focus/ignore_mouse = false
+focus/stop_mouse = false
+size_flags/horizontal = 0
+size_flags/vertical = 0
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 16.0
+margin/bottom = 16.0
+toggle_mode = false
+enabled_focus_mode = 0
+shortcut = null
+params/resize_mode = 1
+params/stretch_mode = 6
+script/script = ExtResource( 1 )
+
+
